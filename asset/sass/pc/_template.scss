@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*------------------------
+		temp.css
+------------------------*/
+
+
+
+/*----------------------------------*/
+/*									*/
+/* tag								*/
+/*									*/
+/*----------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1;
+	font-size: 1.0rem;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+}
+
+input[type="text"].typeA {
+	width: 32em;
+	border: none;
+	outline: 0;
+	transition: box-shadow 0.2s ease-out;
+
+	&:focus {
+		border: none;
+		box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+		background-color: #fff0f0;
+	}
+
+}
+
+
+/*----------------------------------*/
+/*									*/
+/* common_temp						*/
+/*									*/
+/*----------------------------------*/
+
+#warp {
+	padding: 30px;
+}
+
+input[type="text"] {
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	padding: 5px 30px;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+}

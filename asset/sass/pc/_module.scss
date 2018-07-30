@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*------------------------
+		module.css
+------------------------*/
+
+
+.agree-btn {
+	background-color: #2996cc;
+}
+.agree-btn--active {
+	background-color: #2996cc;
+}
+.agree-btn--disabled {
+	background-color: #999;
+}
+
+.js-txt-loader {
+	background: url(../image/common/loader.gif) no-repeat 10px center;
+}
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity 0.5s ease-in;
+}
+.fade-enter, .fade-leave-to,
+.fade-enter-active, .fade-enter-to {
+	opacity: 0;
+}
+
+.txt-comprete {
+	padding: 10px 20px;
+	border-radius: 6px;
+	background-color: #fae1e1;
+}
+
+.form-txt--err {
+	background-color: #fae1e1;
+}

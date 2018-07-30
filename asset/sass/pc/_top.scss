@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*------------------------
+	top.css
+------------------------*/
+
+#addBookmark {
+	padding: 25px;
+	border: 1px solid #ddd;
+}
+
+#bookmarkList {
+
+	.category_name {
+		padding: 5px;
+		font-weight: bold;
+		background-color: #ddd;
+	}
+
+	.lists {
+		padding: 10px;
+	}
+
+	li {
+		padding: 5px 0;
+
+		div {
+			display: inline-block;
+		}
+
+		.nomal {}
+		.edit {
+			input {
+				width: 500px;
+			}
+		}
+		//.other { display: none; }
+		.trash {
+			width: 13px;
+			vertical-align: middle;
+		}
+
+		.num {
+			width: 2em;
+			padding-right: 0.5em;
+			text-align: right;
+		}
+
+		input { width: 3em; }
+
+	}
+}

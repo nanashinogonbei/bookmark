@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+
+/*------------------------
+	module.css
+------------------------*/
+
+$values: 10;
+@each $value in $values {
+	$key: index($value, $values);
+	.mb#{$value} { margin-bottom: #{$value}px !important; }	
+}
+
+.respView { display: none; }
+
+.taC { text-align: center; }
